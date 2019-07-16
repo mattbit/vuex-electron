@@ -1,6 +1,6 @@
-declare module 'vuex-electron' {
-    import { Store } from 'vuex';
-    import { IpcRenderer, IpcMain } from 'electron';
+declare module "vuex-electron" {
+    import { Store } from "vuex";
+    import { IpcRenderer, IpcMain } from "electron";
 
     interface PersistedStateOptions {
         whitelist: Array<string> | ((mutation: string) => boolean);
